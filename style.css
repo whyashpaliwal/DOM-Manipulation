@@ -1,0 +1,86 @@
+/*
+* DOM Assignment
+* Developed by: Yash Paliwal
+* Reviewer: RajjatB
+* Date: 18-05-2020
+* CSS file
+*/
+
+.tsclsStartDiv{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+}
+.tsclsBtn{
+    margin: 10px;
+    font-size: 16px; 
+}
+/* style active at runtime */
+.tsclsGenBtn{
+    margin-top: 50%;
+    font-size: 16px;
+    width: 80%;
+}
+.tsclsAlignCenter{
+    text-align: center;
+    font-size: 16px; 
+}
+.tsclsInputText{
+    margin-top: 60px;    
+    margin-bottom: 60px;
+    margin-right: 50px;
+    padding: 2px;
+    font-size: 16px;
+}
+.tsclsSquareDiv{
+    float: left;
+    margin: 15px;
+    width: 36%;
+    height: 380px;
+    border: 3px solid rgb(0, 84, 117);;
+}
+
+.tsclsBtnContainerDiv{
+    float: left;
+    margin: 15px;
+    width: 15%;
+    height: 380px;
+    text-align: center;
+    /* border: 1px solid grey; */
+}
+.tsclsDataContainer{
+    width: 100%;
+    text-align: center;
+
+}
+.tsclsDataName{
+    float: left;
+    width: 38.4%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: inherit;
+}
+.tsclsDataDelete{
+    float: left;
+    width: 20%;
+    text-align: center;
+    border: 1px solid black;
+    background-color:rgb(209, 229, 255);
+}
+.tsclsDelBtn{
+    float: left;
+    height: 27px;
+    width: 20.4%;
+    text-align: center;
+    border: 1px solid rgb(179, 206, 241);
+    color: azure;
+    background-color: rgb(59, 59, 59);
+}
+
+.tsclsDataContainer:nth-child(odd){
+    background-color:rgb(209, 229, 255);
+}
+#tsContainerTable  tr:nth-child(even){
+    background-color: white;
+}
